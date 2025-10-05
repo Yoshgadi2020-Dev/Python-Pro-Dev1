@@ -1,0 +1,20 @@
+Mis_dichos = {
+    "CRINGE": "Algo excepcionalmente raro o embarazoso",
+    "LOL": "Una respuesta común a algo gracioso",
+    "SERENO:" "Un frio o sensacion que adquieres al ir a la calle", 
+    "PARCHE:" "Grupo cercano de amigos", 
+    "BACANO:" "Algo o alguien que puede ser genial",
+    "SHIPPEAR:""Apoyar o imaginar una relación romantica"
+}
+
+print("Te damos la bienvenida al diccionario de muchachos")
+
+for i in range(5):
+
+    word = input("Escribe una palabra que no entiendas (¡con mayúsculas!):" )
+    if word in Mis_dichos.keys():
+            print(Mis_dichos[word])
+    # ¿Qué debemos hacer si se encuentra la palabra?
+    else:
+        print("No se encuentra la palabra")
+    # ¿Qué hacer si no se encuentra la palabra?
