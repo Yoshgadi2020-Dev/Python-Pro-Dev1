@@ -1,0 +1,9 @@
+import random 
+import string
+
+caracters = "<>·$%&/()=?¿abcdefghijkmnlpqrstowxyz0123456789ABCDEFGHIJKMNLOPQRSTWVXYZ"
+num = int(input("Ingrese la cantidad de contraseñas que necesitas"))
+password = ""
+for i in range(num):
+    password += random.choice(caracters)
+print(password)
