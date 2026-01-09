@@ -1,0 +1,1 @@
+DISCORD_TOKEN = "" # Aqui agregas el token del bot de discord, este es un archivo aparte del principal para el bot para mayor seguridad y mas complejidad del proyecto
